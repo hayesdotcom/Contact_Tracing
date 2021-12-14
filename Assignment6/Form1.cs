@@ -35,7 +35,7 @@ namespace Assignment6
         {
             StreamWriter A = new StreamWriter(Application.StartupPath + "\\form\\" + "Records.txt");
 
-            A.WriteLine("DETAILS:");
+            A.WriteLine("DETAILS");
               
             A.WriteLine(label2.Text + " " + textBox1.Text);
             A.WriteLine(label3.Text + " " + textBox2.Text);
@@ -45,7 +45,7 @@ namespace Assignment6
             A.WriteLine(label7.Text + " " + comboBox2.Text + " " + comboBox3.Text + ", " + comboBox4.Text);
             A.WriteLine(label8.Text + " " + textBox5.Text);
 
-            A.WriteLine("HEALTH CONDITIONS:");
+            A.WriteLine("HEALTH CONDITIONS");
 
             if (checkBox1.CheckState == CheckState.Checked)
             {
@@ -82,6 +82,7 @@ namespace Assignment6
 
             A.Close();
             MessageBox.Show("Data was added succesfully!");
+            Application.Exit();
 
         }
 
@@ -174,6 +175,17 @@ namespace Assignment6
             comboBox2.Text = String.Empty;
             comboBox3.Text = String.Empty;
             comboBox4.Text = String.Empty;
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            checkBox1.Checked = false;
+            checkBox2.Checked = false; 
+            checkBox3.Checked = false; 
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            checkBox6.Checked = false;
+            checkBox7.Checked = false;
+            checkBox8.Checked = false;
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -182,6 +194,11 @@ namespace Assignment6
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
         }
