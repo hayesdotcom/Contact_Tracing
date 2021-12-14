@@ -444,6 +444,7 @@ namespace Assignment6
             this.label12.Size = new System.Drawing.Size(235, 13);
             this.label12.TabIndex = 22;
             this.label12.Text = "Did you experience fever from the past 14 days?";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // checkBox1
             // 
