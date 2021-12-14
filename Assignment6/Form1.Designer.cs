@@ -54,19 +54,18 @@ namespace Assignment6
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -304,7 +303,7 @@ namespace Assignment6
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(132, 19);
+            this.checkBox2.Location = new System.Drawing.Point(189, 330);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(40, 17);
             this.checkBox2.TabIndex = 24;
@@ -313,7 +312,7 @@ namespace Assignment6
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(66, 525);
+            this.button1.Location = new System.Drawing.Point(65, 478);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 32);
             this.button1.TabIndex = 34;
@@ -323,7 +322,7 @@ namespace Assignment6
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(173, 525);
+            this.button2.Location = new System.Drawing.Point(172, 478);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 32);
             this.button2.TabIndex = 35;
@@ -333,10 +332,9 @@ namespace Assignment6
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Location = new System.Drawing.Point(30, 304);
+            this.groupBox1.Location = new System.Drawing.Point(30, 569);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(288, 43);
+            this.groupBox1.Size = new System.Drawing.Size(252, 100);
             this.groupBox1.TabIndex = 36;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Did you experience fever from the past 14 days?";
@@ -344,117 +342,140 @@ namespace Assignment6
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(51, 19);
+            this.checkBox9.Location = new System.Drawing.Point(104, 42);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(44, 17);
             this.checkBox9.TabIndex = 24;
             this.checkBox9.Text = "Yes";
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // label15
             // 
-            this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.checkBox10);
-            this.groupBox2.Location = new System.Drawing.Point(30, 353);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(288, 43);
-            this.groupBox2.TabIndex = 37;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Did you experience dry cough from the past 14 days?";
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(47, 422);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(261, 13);
+            this.label15.TabIndex = 31;
+            this.label15.Text = "Did you experience sore throat from the past 14 days?";
             // 
-            // checkBox1
+            // checkBox8
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(51, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(44, 17);
-            this.checkBox1.TabIndex = 24;
-            this.checkBox1.Text = "Yes";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(80, 438);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(44, 17);
+            this.checkBox8.TabIndex = 32;
+            this.checkBox8.Text = "Yes";
+            this.checkBox8.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // checkBox7
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(132, 19);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(40, 17);
-            this.checkBox10.TabIndex = 24;
-            this.checkBox10.Text = "No";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(189, 438);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(40, 17);
+            this.checkBox7.TabIndex = 33;
+            this.checkBox7.Text = "No";
+            this.checkBox7.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // checkBox5
             // 
-            this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Controls.Add(this.checkBox4);
-            this.groupBox3.Location = new System.Drawing.Point(30, 402);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(288, 43);
-            this.groupBox3.TabIndex = 37;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Did you experience tiredness from the past 14 days?";
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(189, 402);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(40, 17);
+            this.checkBox5.TabIndex = 30;
+            this.checkBox5.Text = "No";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(80, 402);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(44, 17);
+            this.checkBox6.TabIndex = 29;
+            this.checkBox6.Text = "Yes";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(47, 386);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(253, 13);
+            this.label14.TabIndex = 28;
+            this.label14.Text = "Did you experience tiredness from the past 14 days?";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(47, 350);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(258, 13);
+            this.label13.TabIndex = 25;
+            this.label13.Text = "Did you experience dry cough from the past 14 days?";
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(51, 19);
+            this.checkBox3.Location = new System.Drawing.Point(80, 366);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(44, 17);
-            this.checkBox3.TabIndex = 24;
+            this.checkBox3.TabIndex = 26;
             this.checkBox3.Text = "Yes";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(132, 19);
+            this.checkBox4.Location = new System.Drawing.Point(189, 366);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(40, 17);
-            this.checkBox4.TabIndex = 24;
+            this.checkBox4.TabIndex = 27;
             this.checkBox4.Text = "No";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // groupBox4
+            // label12
             // 
-            this.groupBox4.Controls.Add(this.checkBox5);
-            this.groupBox4.Controls.Add(this.checkBox6);
-            this.groupBox4.Location = new System.Drawing.Point(30, 451);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(288, 43);
-            this.groupBox4.TabIndex = 38;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Did you experience sore throat from the past 14 days?";
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(47, 314);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(235, 13);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Did you experience fever from the past 14 days?";
             // 
-            // checkBox5
+            // checkBox1
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(51, 19);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(44, 17);
-            this.checkBox5.TabIndex = 24;
-            this.checkBox5.Text = "Yes";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(132, 19);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(40, 17);
-            this.checkBox6.TabIndex = 24;
-            this.checkBox6.Text = "No";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(80, 330);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(44, 17);
+            this.checkBox1.TabIndex = 23;
+            this.checkBox1.Text = "Yes";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(345, 749);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.checkBox7);
+            this.Controls.Add(this.checkBox8);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox6);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -479,12 +500,6 @@ namespace Assignment6
             this.Text = "Contact Tracing App";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -517,15 +532,17 @@ namespace Assignment6
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

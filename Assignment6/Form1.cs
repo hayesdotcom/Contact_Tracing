@@ -45,7 +45,13 @@ namespace Assignment6
             A.WriteLine(label7.Text + " " + comboBox2.Text + " " + comboBox3.Text + ", " + comboBox4.Text);
             A.WriteLine(label8.Text + " " + textBox5.Text);
 
+            A.WriteLine("HEALTH CONDITIONS:");
 
+            if (checkBox7.CheckState == CheckState.Checked)
+            {
+                A.WriteLine(label12.Text + "YES. oh no!");
+            }
+            
 
             A.Close();
 
